@@ -1,0 +1,25 @@
+x#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/*description: positive or negative validation*/
+/**
+*main - void
+*Return: Always 0 (Success)
+*
+*/
+/*description: positive or negative validation*/
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n < 0)
+	printf("%i is negative\n", n);
+	else if (n > 0)
+	printf("%i is positive\n", n);
+	else
+	printf("%i is zero\n", n);
+
+	return (0);
+}
