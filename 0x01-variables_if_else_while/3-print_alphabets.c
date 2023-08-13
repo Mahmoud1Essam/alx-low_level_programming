@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+/**
+*main - void
+*Return: Always 0 (Success)
+*/
+int main(void)
+{
+char lower_alpha = 'a';
+char upper_case = 'A';
+while (lower_alpha <= 'z')
+{
+putchar (lower_alpha);
+lower_alpha++;
+}
+while (upper_case <= 'Z')
+{
+putchar (upper_case);
+upper_case++;
+}
+putchar ('\n');
+return (0);
+}
