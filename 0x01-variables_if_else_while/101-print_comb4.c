@@ -6,16 +6,11 @@
 int main(void)
 {
 int i, j, k;
-
-for (i = 0; i < 10; i++)
+for (i = 0; i <= 7; i++)
 {
-for (j = 0; j < 10; j++)
+for (j = i + 1; j <= 8; j++)
 {
-if (i != j)
-{
-for (k = 0; k < 10; k++)
-{
-if (i != k && j != k)
+for (k = j + 1; k <= 9; k++)
 {
 putchar(i + '0');
 putchar(j + '0');
@@ -28,7 +23,7 @@ putchar(' ');
 }
 }
 }
-}
-}
+putchar('\n');
 return (0);
 }
+
