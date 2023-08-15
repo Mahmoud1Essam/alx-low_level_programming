@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+*main - void
+*Return: Always 0 (Success)
+*/
+int main(void)
+{
+char string[] = "_putchar";
+int x;
+for (x = 0; x < 8; x++)
+_putchar(string[x]);
+_putchar('\n');
+return (0);
+}
