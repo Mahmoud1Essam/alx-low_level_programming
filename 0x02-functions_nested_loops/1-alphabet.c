@@ -3,10 +3,10 @@
 *main - void
 *Return: Always 0 (Success)
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 int alpha;
-for (alpha = 'a'; alpha = 'z'; alpha++)
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 _putchar(alpha);
 _putchar('\n');
 
