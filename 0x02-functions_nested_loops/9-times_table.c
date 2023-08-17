@@ -12,7 +12,7 @@ for (y = 1; y <= 9; y++)
 {
 _putchar(',');
 _putchar(' ');
-z = i * z;
+z = i * y;
 if (z <= 9)
 _putchar(' ');
 else
