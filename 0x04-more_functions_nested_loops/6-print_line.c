@@ -1,4 +1,5 @@
-#include "main.h"
+
+0;276;0c#include "main.h"
 /**
 *print_line - int n as input
 *@n : input function
@@ -7,7 +8,7 @@
 void print_line(int n)
 {
 int x;
-for (x = 0; x < n; n++)
+for (x = 1; x <= n; n++)
 _putchar('_');
 _putchar('\n');
 if (n <= 0)
