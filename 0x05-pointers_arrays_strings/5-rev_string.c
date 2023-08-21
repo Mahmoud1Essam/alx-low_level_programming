@@ -12,6 +12,7 @@ while (s[r])
 _putchar(s[r]);
 r++;
 }
+_putchar('\n');
 while (r--)
 {
 _putchar(s[r]);
