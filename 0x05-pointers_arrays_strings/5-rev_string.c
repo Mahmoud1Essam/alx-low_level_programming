@@ -8,7 +8,10 @@ void rev_string(char *s)
 {
 int r = 0;
 while (s[r])
+{
+_putchar(s[r]);
 r++;
+}
 while (r--)
 {
 _putchar(s[r]);
