@@ -16,6 +16,6 @@ int main(void)
       x += y;
       putchar(y);
     }
-  putchat(2772 - x);
+  putchar(2772 - x);
   return (0);
 }
