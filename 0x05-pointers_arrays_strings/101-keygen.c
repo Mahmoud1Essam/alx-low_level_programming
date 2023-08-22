@@ -13,7 +13,7 @@ int main(void)
   while (x <= 2645)
     {
       y = rand() % 128;
-      x += c;
+      x += y;
       putchar(y);
     }
   putchat(2772 - x);
