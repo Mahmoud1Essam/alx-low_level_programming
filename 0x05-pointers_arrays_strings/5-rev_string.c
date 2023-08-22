@@ -6,16 +6,14 @@
 */
 void rev_string(char *s)
 {
-int r = 0;
-while (s[r])
+int x, y;
+char t;
+for (x = 0; s[x] != '\0'; ++x)
+;
+for (y = 0; y < x / 2; y++)
 {
-_putchar(s[r]);
-r++;
+t = s[y];
+s[y] = s[x - 1 - y];
+s[x - 1 - y] = t;
 }
-_putchar('\n');
-while (r--)
-{
-_putchar(s[r]);
-}
-_putchar('\n');
 }
