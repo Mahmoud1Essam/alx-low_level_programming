@@ -15,5 +15,5 @@ printf("%d, ", a[x]);
 else
 printf("%d", a[x]);
 }
-printf("\n"); 
+printf("\n");
 }
