@@ -16,5 +16,5 @@ x = (x * 10) + (*s - '0');
 else if (x > 0)
 break;
 } while (*s++);
-return (num * sign);
+return (x * y);
 }
