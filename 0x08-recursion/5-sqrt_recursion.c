@@ -10,7 +10,7 @@ static int x = 1;
 if (n < 0)
 return (-1);
 if (x * x == n)
-return (i);
+return (x);
 if (x * x > n)
 return (-1);
 x++;
