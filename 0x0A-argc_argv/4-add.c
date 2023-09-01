@@ -8,14 +8,14 @@
 */
 int main(int argc, char *argv[])
 {
-char *a
+char *a;
 int add = 0;
 while (--argc)
 {
 for (a = argv[argc]; *a; a++)
 if (*a < '0' || *a > '9')
 return (printf("Error\n"), 1);
-add += (atoi(argv[argc];
+add += atoi(argv[argc]);
 }
 printf("%d\n", add);
 return (0);
