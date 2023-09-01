@@ -17,7 +17,9 @@ return (1);
 }
 ct = atoi(argv[1]);
 if (ct < 0)
+{
 printf("%d\n", 0);
+}
 while (ct > 0)
 {
 if (ct >= 25)
