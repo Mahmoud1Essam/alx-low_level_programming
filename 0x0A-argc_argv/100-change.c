@@ -18,7 +18,7 @@ return (1);
 ct = atoi(argv[1]);
 if (ct < 0)
 {
-printf("%d\n", 0);
+printf("0\n");
 }
 while (ct > 0)
 {
