@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
 *create_array - takes 2 argument
 *@size: int input
