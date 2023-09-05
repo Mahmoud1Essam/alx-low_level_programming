@@ -12,5 +12,5 @@ if (size == 0 || l == 0)
 return (0);
 while (size--)
 l[size] = c;
-return (n);
+return (l);
 }
