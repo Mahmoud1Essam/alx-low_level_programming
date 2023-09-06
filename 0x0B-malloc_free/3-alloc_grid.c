@@ -16,7 +16,7 @@ return (NULL);
 }
 else
 {
-for (x = 0; x < hieght; x++)
+for (x = 0; x < height; x++)
 {
 t[x] = malloc(sizeof(*t) * width);
 if (t[x] == 0)
