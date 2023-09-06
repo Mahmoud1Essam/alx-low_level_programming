@@ -1,0 +1,42 @@
+#include "main.h"
+#include "stdlib.h"
+/**
+*_stringlen - takes s as input
+*@s:  function input
+*Return: int length
+*/
+int _stringlen(char *s)
+{
+int sz = 0;
+for (; s[sz] != '\0'; sz++)
+;
+return (sz);
+}
+
+/**
+*argstostr - takes 2 input
+*@ac:  function input
+*@av:  function input
+*Return: char
+*/
+char *argstostr(int ac, char **av)
+{
+int x = 0, y = 0, z = 0, c = 0;
+char *s;
+if (ac == 0 || av == NULL)
+return (NULL);
+for (; x < ac; x++, z++)
+z += _stringlen(av[x]);
+s = malloc(sizeof(char) * z + 1);
+if (s == 0)
+return (NULL);
+for (x = 0; x < ac; x++)
+{
+for (y av[x][y] != '\0'; y++, c++)
+s[c] = av[x][y];
+s[c] = '\n';
+c++;
+}
+s[c] = '\0';
+return (s);
+}
