@@ -27,5 +27,5 @@ for (x = 0; s1[x] != '\0'; x++)
 o[x] = s1[x];
 for (x = 0; s2[x] != '\0'; x++)
 o[s1_l + 1] = s2[x];
-return (output);
+return (o);
 }
