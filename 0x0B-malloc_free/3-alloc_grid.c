@@ -4,7 +4,7 @@
 *alloc_grid - takes 2 input
 *@width:  function input
 *@height:  function input
-*Return : array , null on faluire
+*Return: array , null on faluire
 */
 int **alloc_grid(int width, int height)
 {
@@ -18,7 +18,7 @@ else
 {
 for (x = 0; x < height; x++)
 {
-t[x] = malloc(sizeof(*t) * width);
+t[x] = malloc(sizeof(**t) * width);
 if (t[x] == 0)
 {
 while (x--)
