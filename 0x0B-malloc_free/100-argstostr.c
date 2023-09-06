@@ -32,7 +32,7 @@ if (s == 0)
 return (NULL);
 for (x = 0; x < ac; x++)
 {
-for (y av[x][y] != '\0'; y++, c++)
+for (y = 0; av[x][y] != '\0'; y++, c++)
 s[c] = av[x][y];
 s[c] = '\n';
 c++;
