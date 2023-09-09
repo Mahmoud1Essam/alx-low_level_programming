@@ -16,7 +16,7 @@ if (s2 == NULL)
 s1 = "";
 for (s1_len = 0; s1[s1_len] != '\0'; s1_len++)
 ;
-for (s2_len = 0; s1[s2_len] != '\0'; s2_len++)
+for (s2_len = 0; s2[s2_len] != '\0'; s2_len++)
 ;
 st = malloc(s1_len + n + 1);
 if (st == NULL)
