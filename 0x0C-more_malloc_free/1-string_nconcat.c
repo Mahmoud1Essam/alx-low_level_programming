@@ -8,7 +8,7 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-chr *st
+char *st;
 unsigned int x, y, s1_len, s2_len;
 if (s1 == NULL)
 s1 = "";
@@ -23,7 +23,7 @@ if (st == NULL)
 {
 return (NULL);
 }
-for (x = 0; S1[x] != '\0'; x++)
+for (x = 0; s1[x] != '\0'; x++)
 st[x] = s1[x];
 for (y = 0; y < n; y++)
 {
