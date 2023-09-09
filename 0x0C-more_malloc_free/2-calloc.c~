@@ -1,0 +1,33 @@
+#include "main.h"
+/**
+*_me - takes 3  input
+*@a: function input
+*@b: function input
+*@c: function input
+*Return: pointer
+*/
+char *_me(char *a, char b, unsigned int c)
+{
+char *d = a;
+while (c--)
+*a++ = b;
+return (d);
+}
+
+/**
+*_calloc - takes 2 input
+*@nmemb: unsigned int
+*@size: unsigned int
+*Return: void
+*/
+void *_calloc(unsigned int nmemb, unsigned int size)
+{
+void *x;
+if (size == 0 || nmemb == 0);
+return (NULL);
+x = malloc(sizeof(int) * nmemb);
+if (x == 0)
+return (NULL);
+_me(x, 0, sizeof(int) * nmemb);
+return (x);
+}
